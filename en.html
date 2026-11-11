@@ -372,6 +372,10 @@ main{position:absolute;inset:0;overflow:hidden;overflow:clip}
 .duo-brand .ms{background:#EFE8FB;color:#2A0B4A}
 .duo-brand i{font-style:normal;font-weight:400;opacity:.75}
 
+a.cta{text-decoration:none}
+.ctas{display:flex;gap:16px;justify-content:center}
+.cta.solid.green{background:var(--green);color:#fff;border-color:var(--green)}
+
 .tools{display:flex;gap:14px;align-items:center}
 .lang-btn{height:44px;min-width:44px;padding:0 18px;border-radius:99px;border:1.5px solid currentColor;background:transparent;color:inherit;font:inherit;font-size:19px;font-weight:600;cursor:pointer;opacity:.85;line-height:1}
 .lang-btn:hover{opacity:1}
@@ -432,7 +436,7 @@ main{position:absolute;inset:0;overflow:hidden;overflow:clip}
               <button class="pill" data-desc="من الفنان؟ ما القصة؟ ماذا أتأمّل؟ يتعمّق الزائر بقدر فضوله.">حاور</button>
             </div>
             <p class="small pill-desc" data-a style="--d:1250">يلتقط الزائر صورة العمل بجواله، دون تطبيق معقّد.</p>
-            <button class="cta solid soon" data-a style="--d:1450" aria-label="عرض حي للنموذج الأولي، قريباً"><span class="sw"><span class="soon-a">عرض حي للنموذج الأولي</span><span class="soon-b">قريباً</span></span><i>←</i></button>
+            <a class="cta solid" data-a style="--d:1450" href="https://nsadec.github.io/khabeer-misk/prototype.html" target="_blank" rel="noopener">جرّب النموذج الأولي <i>←</i></a>
           </div>
           <div class="phone" data-a style="--d:300" data-phone>
             <div class="screen">
@@ -645,7 +649,7 @@ main{position:absolute;inset:0;overflow:hidden;overflow:clip}
         <h2 class="hero split" style="--base:200;font-size:100px">لنبدأ<br>التجربة<span class="acc">.</span></h2>
         <p class="lede" data-a style="--d:900">تجربة حيّة للتقنيتين خلال أسبوع مسك للفنون.</p>
         <p class="duo-brand" data-a style="--d:1050"><span class="kb">خبير مسك <i>· 5 أفكار</i></span><span class="ms">مشهد مسك <i>· تجربة مستقلة</i></span></p>
-        <button class="cta" data-a style="--d:1300" data-go="0">من البداية <i>↺</i></button>
+        <div class="ctas" data-a style="--d:1300"><a class="cta solid green" href="https://nsadec.github.io/khabeer-misk/prototype.html" target="_blank" rel="noopener">جرّب النموذج الأولي <i>←</i></a><button class="cta" data-go="0">من البداية <i>↺</i></button></div>
       </div>
     </section>
   </main>
@@ -713,7 +717,7 @@ main{position:absolute;inset:0;overflow:hidden;overflow:clip}
               <button class="pill" data-desc="Who made it? What's the story? What should I look for? Visitors go as deep as their curiosity takes them.">Chat</button>
             </div>
             <p class="small pill-desc" data-a style="--d:1250">The visitor snaps the artwork with their phone, no complicated app needed.</p>
-            <button class="cta solid soon" data-a style="--d:1450" aria-label="Live prototype demo, coming soon"><span class="sw"><span class="soon-a">Live prototype demo</span><span class="soon-b">Coming soon</span></span><i>→</i></button>
+            <a class="cta solid" data-a style="--d:1450" href="https://nsadec.github.io/khabeer-misk/prototype.html" target="_blank" rel="noopener">Try the prototype <i>→</i></a>
           </div>
           <div class="phone" data-a style="--d:300" data-phone>
             <div class="screen">
@@ -926,7 +930,7 @@ main{position:absolute;inset:0;overflow:hidden;overflow:clip}
         <h2 class="hero split" style="--base:200;font-size:100px">Let's start<br>the pilot<span class="acc">.</span></h2>
         <p class="lede" data-a style="--d:900">A live pilot of both technologies during Misk Art Week.</p>
         <p class="duo-brand" data-a style="--d:1050"><span class="kb">Khabeer Misk <i>· 5 ideas</i></span><span class="ms">Mashhad Misk <i>· standalone experience</i></span></p>
-        <button class="cta" data-a style="--d:1300" data-go="0">Start over <i>↺</i></button>
+        <div class="ctas" data-a style="--d:1300"><a class="cta solid green" href="https://nsadec.github.io/khabeer-misk/prototype.html" target="_blank" rel="noopener">Try the prototype <i>→</i></a><button class="cta" data-go="0">Start over <i>↺</i></button></div>
       </div>
     </section>
   </main>
